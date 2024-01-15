@@ -33,7 +33,11 @@ layout: default
         {{ content }}
 
         <hr>
-
+        
+        <div id="signature">
+          <a href="#">{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}</a>
+        </div>
+        
         <div class="clearfix">
 
           {% if page.previous.url %}
