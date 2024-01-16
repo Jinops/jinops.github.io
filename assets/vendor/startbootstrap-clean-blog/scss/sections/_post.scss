@@ -57,3 +57,18 @@
 img {
     max-width: 100%;
 }
+
+h2 {
+    padding-bottom: 0.3em;
+    font-size: 1.5em;
+    border-bottom: 1px solid var(--borderColor-muted, var(--color-border-muted));
+}
+
+h3 {
+    font-size: 1.25em;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-weight: var(--base-text-weight-semibold, 600);
+    line-height: 1.25;
+}
+
