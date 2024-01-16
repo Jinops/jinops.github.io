@@ -1,9 +1,10 @@
 ---
-layout: "post"
+layout: post
 title: "오픈소스 모델과 로봇 개발 프로젝트"
-subtitle: "컨베이어 벨트 물체 정렬 로봇"
-date: "2024-01-16 13:00:00 +0900"
-categories: "회고", "프로젝트"
+subtitle: 컨베이어 벨트 물체 정렬 로봇
+date: 2024-01-16 13:00:00 +0900
+background: 
+categories: [회고, 프로젝트]
 ---
 
 ## Repositories

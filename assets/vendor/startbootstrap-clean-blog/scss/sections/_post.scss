@@ -54,21 +54,29 @@
     text-align: right;
 }
 
-img {
-    max-width: 100%;
+.markdown-body{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 16px;
+    line-height: 1.5;
+    word-wrap: break-word;
 }
 
-h2 {
-    padding-bottom: 0.3em;
-    font-size: 1.5em;
-    border-bottom: 1px solid var(--borderColor-muted, var(--color-border-muted));
-}
+.markdown-body {
+    >img {
+        max-width: 100%;
+    }
 
-h3 {
-    font-size: 1.25em;
-    margin-top: 24px;
-    margin-bottom: 16px;
-    font-weight: var(--base-text-weight-semibold, 600);
-    line-height: 1.25;
-}
+    >h2 {
+        padding-bottom: 0.3em;
+        font-size: 1.5em;
+        border-bottom: 1px solid var(--borderColor-muted, var(--color-border-muted));
+    }
 
+    >h3 {
+        font-size: 1.25em;
+        margin-top: 24px;
+        margin-bottom: 16px;
+        font-weight: var(--base-text-weight-semibold, 600);
+        line-height: 1.25;
+    }
+}

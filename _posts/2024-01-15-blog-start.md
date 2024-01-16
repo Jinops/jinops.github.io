@@ -4,6 +4,7 @@ title: "github 블로그 시작"
 subtitle: "못다한 이야기를 꺼내보며"
 date: 2024-01-15 23:00:00 +0900
 background: ''
+categories: "기타"
 ---
 
 ## 시작
