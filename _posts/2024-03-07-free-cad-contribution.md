@@ -22,7 +22,7 @@ FreeCAD는 CAM 기능을 제공한다. 즉, CNC 머신의 작업경로 설정을
 
 교수님께서 우리 팀의 CAM 파트를 바퀴로 선정해주셨다. 참고로 바퀴 모델은 다음과 같다.
 
-![wheel_model](img/posts/2024-03-07-free-cad-contribution/model.PNG)
+![wheel_model](img/posts/2024-03-07-free-cad-contribution/model.png)
 
 바퀴의 둥근 테두리와 움푹 파인 부분은 선반(lathe) 가공이 필요했다. 그러나 FreeCAD의 기본 기능에는 이를 제공하지 않았다.
 
@@ -62,6 +62,10 @@ FreeCAD는 CAM 기능을 제공한다. 즉, CNC 머신의 작업경로 설정을
 해당 작업들의 코드 구조는 Addon의 작업들 코드와 매우 유사했다. 즉, `Create`와 같은 함수가 동일하게 존재했다. 해당 함수를 호출하는 상위 코드는 당장 알 수 없으나 기존 기능들에는 `parentJob`을 인자로 전달하고 있다는 것을 확인, `parentJob`이 `Create` 호출 시 항상 인자로 넘겨준다는 것을 확인할 수 있었다.
 
 에러 발생에 대한 이전 상황을 추적하려는 방식에서, 단순한 코드 대조를 통해 훨씬 쉽게 에러를 수정할 수 있었다. 물론 상위 코드 추적은 이에 대한 확신을 얻기 위한 과정으로 큰 도움이 되었다.
+
+![path](img/posts/2024-03-07-free-cad-contribution/path.png)
+![gcode](img/posts/2024-03-07-free-cad-contribution/gcode.png)
+(생성된 path와 G Code)
 
 ## PR
 
