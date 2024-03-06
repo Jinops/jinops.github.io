@@ -8,9 +8,9 @@ categories: [회고, 프로젝트]
 ---
 
 ## Repositories
-https://github.com/Jinops/conveyor-alignment-robot
+[https://github.com/Jinops/conveyor-alignment-robot](https://github.com/Jinops/conveyor-alignment-robot)
 
-https://github.com/Jinops/yolov5_obb
+[https://github.com/Jinops/yolov5_obb](https://github.com/Jinops/yolov5_obb)
 
 ## 개요
 학교 졸업 프로젝트의 일환으로 컨베이어 벨트 물체 정렬 로봇을 개발하였다. 간단하게 설명하면, 컨베이어 벨트 위의 틀어져있는 물체를, 로봇 팔을 통해 정방형으로 정렬해주는 것이다.
