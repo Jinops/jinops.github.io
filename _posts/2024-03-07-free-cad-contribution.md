@@ -45,7 +45,7 @@ FreeCAD는 CAM 기능을 제공한다. 즉, CNC 머신의 작업경로 설정을
   3. Addon에서 추가된 작업(Turn Face) 설정
   4. 작업 실행 - 실제 에러 발생 시점
   5. Path 및 Face 생성 완료
-  6. G Code 조회
+  6. G code 조회
 
 또한 (1) 해당 Addon 내부의 로직 결함, (2) 프로그램과 Addon 사이 데이터를 주고 받는 것에서 발생하는 결함, 두 경우를 중심으로 접근했다.
 
@@ -64,8 +64,8 @@ FreeCAD는 CAM 기능을 제공한다. 즉, CNC 머신의 작업경로 설정을
 에러 발생에 대한 이전 상황을 추적하려는 방식에서, 단순한 코드 대조를 통해 훨씬 쉽게 에러를 수정할 수 있었다. 물론 상위 코드 추적은 이에 대한 확신을 얻기 위한 과정으로 큰 도움이 되었다.
 
 ![path](/img/posts/2024-03-07-free-cad-contribution/path.png)
-![gcode](/img/posts/2024-03-07-free-cad-contribution/gcode.png)
-(생성된 path와 G Code)
+
+(생성된 path와 G code)
 
 ## PR
 
