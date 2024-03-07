@@ -18,9 +18,9 @@ categories: [Opensource]
 팀프로젝트로 마트 쇼핑카트를 베이스로 한 컨베이어 벨트, 리프트 등이 포함된 카트를 설계하고 CAD로 3D 도면을 만들었다. 프로젝트에는 VR skatch, Generative Design, CAM(one part), 3D Printing 등이 포함되어 있었다.
 
 ## CAM
-FreeCAD는 CAM 기능을 제공한다. 즉, CNC 머신의 작업경로 설정을 위한 G-code를 만들 수 있다.
+FreeCAD는 CAM 기능을 제공하여 CNC 머신의 작업경로 설정을 위한 G-code를 만들 수 있다.
 
-교수님께서 우리 팀의 CAM 파트를 바퀴로 선정해주셨다. 참고로 바퀴 모델은 다음과 같다.
+아래는 우리 팀이 만든 모델의 바퀴 파트인데, 해당 파트에 CAM 작업을 수행해야 했다.
 
 ![wheel_model](/img/posts/2024-03-07-free-cad-contribution/model.png)
 
